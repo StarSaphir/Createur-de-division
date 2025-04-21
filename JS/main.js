@@ -36,7 +36,7 @@ function updateGridDisplay(grid, prefix) {
             } else if (!firstEmptyPlaced) {
                 // Uniquement la première case vide de la colonne
                 const addBtn = document.createElement("img");
-                addBtn.src = "/images/btn-ajouter.png";
+                addBtn.src = "images/btn-ajouter.png";
                 addBtn.classList.add("unit-img");
                 addBtn.style.cursor = "pointer";
                 addBtn.addEventListener("click", () => openUnitPicker(cell, grid, prefix, col, row));
