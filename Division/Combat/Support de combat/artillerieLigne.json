@@ -1,0 +1,10 @@
+{
+    "Nom" : "Bataillon d'Artillerie",
+    "Description" : "Permet d'augmenter la puissance de feu de vos troupes",
+    "Effectif" : 500,
+    "Equipements" : {
+        "Pièces d'Artillerie" : 36
+    },
+    "image" : "icon/btn-arti",
+    "imageOtan" : "otan/btn-otan-arti"
+}

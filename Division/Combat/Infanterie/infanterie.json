@@ -1,0 +1,10 @@
+{
+    "Nom" : "Bataillon d'Infanterie",
+    "Description" : "Le coeur de toute armée",
+    "Effectif" : 1000,
+    "Equipements" : {
+        "Matériel d'infanterie" : 100
+    },
+    "image" : "icon/btn-casque",
+    "imageOtan" : "otan/btn-otan-infanterie"
+}

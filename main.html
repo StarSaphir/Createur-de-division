@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Créateur de division</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <script src="JS/main.js"></script>
+    <header>
+        <div class="menu">
+            <button onclick="openExportModal()">Exporter</button>
+            <div class="divider"></div>
+            <button onclick="openImportModal()">Importer</button>
+            <div class="divider"></div>
+            <button id="toggle-symbols-btn" onclick="toggleSymbolSet()">Utiliser symboles OTAN</button>
+            <div class="divider"></div>
+            <button onclick="afficherEquipement()">Équipement requis</button>
+        </div>
+    </header>
+
+    <!-- Modale d'export -->
+    <div id="export-modal" class="modal-ei">
+        <div class="modal-inner">
+            <button class="close-btn" onclick="document.getElementById('export-modal').style.display='none'">Fermer</button>
+            <h2>URL à copier pour exporter</h2>
+            <input type="text" id="export-url" readonly />
+            <button onclick="copyToClipboard()">Copier l'URL</button>
+            <input
+                type="text"
+                id="discord-name"
+                placeholder="nom de la division"
+                style="margin-top: 10px; margin-bottom: 10px; width: 100%;"
+            />
+            <button onclick="copyDiscordFormat()">Copier format Discord</button>
+        </div>
+    </div>
+
+    <!-- Modale d'import -->
+    <div id="import-modal" class="modal-ei">
+        <div class="modal-inner">
+            <button class="close-btn" onclick="document.getElementById('import-modal').style.display='none'">Fermer</button>
+            <h2>Entrez l'URL pour importer</h2>
+            <input type="text" id="import-url" placeholder="Coller l'URL ici" />
+            <button onclick="importData()">Charger</button>
+            <hr>
+            <h3>Divisions pré-faites</h3>
+            <div id="template-list"></div>
+        </div>
+    </div>
+
+    <!-- Modale Équipement Requis -->
+    <div id="equipement-modal" class="modal-ei">
+        <div class="modal-inner">
+            <button class="close-btn" onclick="document.getElementById('equipement-modal').style.display='none'">Fermer</button>
+            <h2>Équipement requis</h2>
+            <div id="equipement-content"></div>
+        </div>
+    </div>
+
+    <div id="modal">
+        <div class="modal-inner">
+            <button class="close-btn" onclick="document.getElementById('modal').style.display='none'">Fermer</button>
+            <div id="modal-content"></div>
+        </div>
+    </div>
+    
+    <div class="lignes">
+        <div class="ligne support">Support</div>
+        <div class="ligne combat">Combat</div>
+    </div>
+    
+    <div class="ligne-cases">
+        <div class="bloc">
+            <div class="grid-support">
+                <div class="cell Spos-1-1"></div>
+                <div class="cell Spos-2-1"></div>
+                <div class="cell Spos-1-2"></div>
+                <div class="cell Spos-2-2"></div>
+                <div class="cell Spos-1-3"></div>
+                <div class="cell Spos-2-3"></div>
+                <div class="cell Spos-1-4"></div>
+                <div class="cell Spos-2-4"></div>
+                <div class="cell Spos-1-5"></div>
+                <div class="cell Spos-2-5"></div>
+            </div>
+        </div>
+
+        <div class="bloc">
+            <div class="grid-combat">
+                <div class="cell Cpos-1-1"></div>
+                <div class="cell Cpos-2-1"></div>
+                <div class="cell Cpos-3-1"></div>
+                <div class="cell Cpos-4-1"></div>
+                <div class="cell Cpos-5-1"></div>
+                <div class="cell Cpos-1-2"></div>
+                <div class="cell Cpos-2-2"></div>
+                <div class="cell Cpos-3-2"></div>
+                <div class="cell Cpos-4-2"></div>
+                <div class="cell Cpos-5-2"></div>
+                <div class="cell Cpos-1-3"></div>
+                <div class="cell Cpos-2-3"></div>
+                <div class="cell Cpos-3-3"></div>
+                <div class="cell Cpos-4-3"></div>
+                <div class="cell Cpos-5-3"></div>
+                <div class="cell Cpos-1-4"></div>
+                <div class="cell Cpos-2-4"></div>
+                <div class="cell Cpos-3-4"></div>
+                <div class="cell Cpos-4-4"></div>
+                <div class="cell Cpos-5-4"></div>
+                <div class="cell Cpos-1-5"></div>
+                <div class="cell Cpos-2-5"></div>
+                <div class="cell Cpos-3-5"></div>
+                <div class="cell Cpos-4-5"></div>
+                <div class="cell Cpos-5-5"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
