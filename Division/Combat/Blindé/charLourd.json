@@ -1,0 +1,10 @@
+{
+    "Nom" : "Bataillon de char lourd",
+    "Description" : "Unité blindée lourde, spécialisée dans le choc direct et le percement des lignes ennemies.",
+    "Effectif" : 500,
+    "Equipements" : {
+        "Char lourd" : 40
+    },
+    "image" : "icon/btn-char-lourd",
+    "imageOtan" : "otan/btn-otan-char-lourd"
+}

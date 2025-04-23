@@ -1,0 +1,10 @@
+{
+    "Nom" : "Bataillon de char moyen",
+    "Description" : "Unité blindée polyvalente, équilibrant puissance de feu, protection et mobilité.",
+    "Effectif" : 500,
+    "Equipements" : {
+        "Char moyen" : 50
+    },
+    "image" : "icon/btn-char-moyen",
+    "imageOtan" : "otan/btn-otan-char-moyen"
+}

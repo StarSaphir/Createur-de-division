@@ -1,0 +1,10 @@
+{
+    "Nom" : "Bataillon de char léger",
+    "Description" : "Unité blindée légère spécialisée dans l’assaut rapide et le soutien mobile.",
+    "Effectif" : 500,
+    "Equipements" : {
+        "Char léger" : 60
+    },
+    "image" : "icon/btn-char-leger",
+    "imageOtan" : "otan/btn-otan-char-leger"
+}
