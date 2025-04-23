@@ -1,0 +1,11 @@
+{
+    "Nom" : "Cie du Génie",
+    "Description" : "Unité militaire spécialisée dans les travaux techniques, comme la construction, le franchissement et le déminage.",
+    "Effectif" : 300,
+    "Equipements" : {
+        "Matériel d'infanterie" : 10,
+        "Matériel de soutien" : 30
+    },
+    "image" : "icon/btn-genie",
+    "imageOtan" : "otan/btn-genie-otan"
+}

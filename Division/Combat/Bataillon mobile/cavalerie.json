@@ -1,0 +1,10 @@
+{
+    "Nom" : "Bataillon de Cavalerie",
+    "Description" : "Unité militaire composée de troupes montés à cheval, spécialisée dans la reconnaissance et l’assaut rapide.",
+    "Effectif" : 1000,
+    "Equipements" : {
+        "Matériel d'infanterie" : 120
+    },
+    "image" : "icon/btn-cavalerie",
+    "imageOtan" : "otan/btn-cavalerie-otan"
+}

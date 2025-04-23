@@ -1,0 +1,11 @@
+{
+    "Nom" : "Détach. de cav. de reconnaissance",
+    "Description" : "Unité légère et mobile spécialisée dans l’observation, la collecte d’informations et l’exploration du terrain.",
+    "Effectif" : 500,
+    "Equipements" : {
+        "Matériel d'infanterie" : 40,
+        "Matériel de soutien" : 10
+    },
+    "image" : "icon/btn-cavalerie-reco",
+    "imageOtan" : "otan/btn-otan-cavalerie-reco"
+}

@@ -1,6 +1,6 @@
 {
     "Nom" : "Bataillon d'Infanterie",
-    "Description" : "Le coeur de toute armée",
+    "Description" : "Unité militaire composée de soldats à pied et spécialisée dans le combat terrestre.",
     "Effectif" : 1000,
     "Equipements" : {
         "Matériel d'infanterie" : 100

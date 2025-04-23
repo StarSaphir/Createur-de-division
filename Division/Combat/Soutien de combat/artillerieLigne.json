@@ -1,6 +1,6 @@
 {
     "Nom" : "Bataillon d'Artillerie",
-    "Description" : "Permet d'augmenter la puissance de feu de vos troupes",
+    "Description" : "Unité de soutien fournissant un appui-feu à distance grâce à l’artillerie.",
     "Effectif" : 500,
     "Equipements" : {
         "Pièces d'Artillerie" : 36

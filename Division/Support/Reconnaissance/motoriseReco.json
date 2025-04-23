@@ -1,0 +1,12 @@
+{
+    "Nom" : "Cie. de reconnaissance motorisée",
+    "Description" : "Unité mobile utilisant des véhicules pour effectuer des missions de reconnaissance et de surveillance.",
+    "Effectif" : 500,
+    "Equipements" : {
+        "Matériel d'infanterie" : 40,
+        "Camion" : 20,
+        "Matériel de soutien" : 10
+    },
+    "image" : "icon/btn-infanterie-motorisee-reco",
+    "imageOtan" : "otan/btn-otan-infanterie-motorisee-reco"
+}

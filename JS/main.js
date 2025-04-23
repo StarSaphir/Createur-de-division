@@ -110,11 +110,37 @@ function openUnitPicker(cell, grid, prefix, col, row) {
                                         ajouterBtn.classList.add("ajouter-btn");
 
                                         ajouterBtn.addEventListener("click", () => {
-                                            // Ajoute dans la grille et met à jour l'affichage
+                                            if (!isCombat) {
+                                                const flatSupport = supportGrid.flat();
+                                        
+                                                // Doublon basé sur le chemin
+                                                const alreadyExists = flatSupport.some(unit => unit && unit.path === fiche.path);
+                                                if (alreadyExists) {
+                                                    alert("Cette compagnie de support est déjà ajoutée.");
+                                                    return;
+                                                }
+                                        
+                                                // Vérifie si une unité de reconnaissance (par nom) est déjà présente
+                                                const isRecon = fiche.Nom.toLowerCase().includes("reconnaissance") || fiche.Nom.toLowerCase().includes("reco");
+                                                if (isRecon) {
+                                                    const hasRecon = flatSupport.some(unit => {
+                                                        if (!unit) return false;
+                                                        const nom = unit.Nom.toLowerCase();
+                                                        return nom.includes("reconnaissance") || nom.includes("reco");
+                                                    });
+                                        
+                                                    if (hasRecon) {
+                                                        alert("Vous ne pouvez avoir qu'une seule unité de reconnaissance.");
+                                                        return;
+                                                    }
+                                                }
+                                            }
+                                        
+                                            // Ajoute dans la grille
                                             grid[col][row] = fiche;
                                             updateGridDisplay(grid, prefix);
                                             modal.style.display = "none";
-                                        });
+                                        });                                  
 
                                         bloc.appendChild(ajouterBtn);
                                         subDiv.appendChild(bloc);
