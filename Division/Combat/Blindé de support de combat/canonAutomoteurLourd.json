@@ -1,0 +1,10 @@
+{
+    "Nom" : "Bataillon de canon automoteur lourd",
+    "Description" : "Unité d’artillerie lourde mobile, équipée de canons automoteurs pour le tir d’appui à longue portée.",
+    "Effectif" : 500,
+    "Equipements" : {
+        "Canon automoteur lourd" : 40
+    },
+    "image" : "icon/btn-spg-lourd",
+    "imageOtan" : "otan/btn-otan-spg-lourd"
+}

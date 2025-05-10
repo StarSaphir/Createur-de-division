@@ -1,0 +1,10 @@
+{
+    "Nom" : "Bataillon de canon automoteur anti-air lourd",
+    "Description" : "Unité mobile dotée de canons antiaériens légers automoteurs, conçue pour la défense rapprochée contre l’aviation.",
+    "Effectif" : 500,
+    "Equipements" : {
+        "Canon automoteur anti-air lourd" : 36
+    },
+    "image" : "icon/btn-charAA-lourd",
+    "imageOtan" : "otan/btn-otan-charAA-lourd"
+}

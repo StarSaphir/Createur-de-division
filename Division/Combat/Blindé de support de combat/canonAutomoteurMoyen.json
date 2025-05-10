@@ -1,0 +1,10 @@
+{
+    "Nom" : "Bataillon de canon automoteur moyen",
+    "Description" : "Unité d’artillerie mobile de puissance moyenne, équipée de canons automoteurs pour le tir d’appui à distance.",
+    "Effectif" : 500,
+    "Equipements" : {
+        "Canon automoteur moyen" : 50
+    },
+    "image" : "icon/btn-spg-moyen",
+    "imageOtan" : "otan/btn-otan-spg-moyen"
+}

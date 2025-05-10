@@ -1,0 +1,10 @@
+{
+    "Nom" : "Bataillon de canon automoteur léger",
+    "Description" : "Unité d’artillerie légère sur véhicules, conçue pour le tir d’appui mobile",
+    "Effectif" : 500,
+    "Equipements" : {
+        "Canon automoteur léger" : 50
+    },
+    "image" : "icon/btn-spg-leger",
+    "imageOtan" : "otan/btn-otan-spg-leger"
+}

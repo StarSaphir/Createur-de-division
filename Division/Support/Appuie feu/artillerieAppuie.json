@@ -1,0 +1,10 @@
+{
+    "Nom" : "Bataillon d'Artillerie d'appuie",
+    "Description" : "Unité de soutien fournissant un appui-feu à distance grâce à l’artillerie.",
+    "Effectif" : 300,
+    "Equipements" : {
+        "Pièces d'Artillerie" : 12
+    },
+    "image" : "icon/btn-arti-appuie",
+    "imageOtan" : "otan/btn-otan-arti-appuie"
+}
