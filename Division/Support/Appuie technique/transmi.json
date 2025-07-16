@@ -1,0 +1,10 @@
+{
+    "Nom" : "Cie du transmission",
+    "Description" : "Unité spécialisée dans l’installation et la gestion des communications militaires.",
+    "Effectif" : 500,
+    "Equipements" : {
+        "Matériel de soutien" : 10
+    },
+    "image" : "icon/btn-transmi",
+    "imageOtan" : "otan/btn-transmi-otan"
+}
