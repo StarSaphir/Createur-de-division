@@ -1,0 +1,10 @@
+{
+    "Nom" : "Cie logistique",
+    "Description" : "Unité chargée du ravitaillement, du transport et du soutien matériel des forces.",
+    "Effectif" : 500,
+    "Equipements" : {
+        "Matériel de soutien" : 20
+    },
+    "image" : "icon/btn-logi",
+    "imageOtan" : "otan/btn-otan-logi"
+}

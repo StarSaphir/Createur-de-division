@@ -1,0 +1,10 @@
+{
+    "Nom" : "Hôpital de campagne",
+    "Description" : "Unité médicale mobile, spécialisée dans les soins et la prise en charge des blessés au plus près du front.",
+    "Effectif" : 500,
+    "Equipements" : {
+        "Matériel de soutien" : 30
+    },
+    "image" : "icon/btn-hopital",
+    "imageOtan" : "otan/btn-otan-hopital"
+}
