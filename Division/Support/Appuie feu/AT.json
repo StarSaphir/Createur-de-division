@@ -1,0 +1,10 @@
+{
+    "Nom" : "Compagnie d'antichars",
+    "Description" : "Unité spécialisée dans la destruction de blindés.",
+    "Effectif" : 300,
+    "Equipements" : {
+        "Antichars" : 24
+    },
+    "image" : "icon/btn-anti-char-support",
+    "imageOtan" : "otan/btn-otan-anti-char-support"
+}

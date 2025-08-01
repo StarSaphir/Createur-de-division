@@ -1,0 +1,10 @@
+{
+    "Nom" : "Bataillon d'Anti-Aérien",
+    "Description" : "Unité chargée de la défense contre les menaces aériennes grâce à des canons anti-aériens.",
+    "Effectif" : 500,
+    "Equipements" : {
+        "Canon Anti-aérien" : 30
+    },
+    "image" : "icon/btn-AA",
+    "imageOtan" : "otan/btn-otan-AA"
+}

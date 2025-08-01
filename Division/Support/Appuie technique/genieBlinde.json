@@ -1,0 +1,11 @@
+{
+    "Nom" : "Compagnie de génie Blindée",
+    "Description" : "Unité de soutien spécialisée dans les opérations du génie avec appui blindé.",
+    "Effectif" : 300,
+    "Equipements" : {
+        "équipement de support blindée" : 30,
+        "équipement de support" : 15
+    },
+    "image" : "icon/btn-genie-blinde",
+    "imageOtan" : "otan/btn-genie-blinde-otan"
+}

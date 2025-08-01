@@ -1,0 +1,11 @@
+{
+    "Nom" : "Bataillon d'artillerie Motorisé",
+    "Description" : "Unité d'appui feu mobile équipée de pièces d'artillerie et de camions.",
+    "Effectif" : 500,
+    "Equipements" : {
+        "Artillerie" : 36,
+        "Camions" : 36
+    },
+    "image" : "icon/btn-arty-moto",
+    "imageOtan" : "otan/btn-otan-arty-moto"
+}

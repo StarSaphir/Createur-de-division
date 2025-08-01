@@ -1,0 +1,10 @@
+{
+    "Nom" : "Bataillon d'antichars",
+    "Description" : "Unité spécialisée dans la destruction de blindés.",
+    "Effectif" : 500,
+    "Equipements" : {
+        "Antichars" : 36
+    },
+    "image" : "icon/btn-anti-char",
+    "imageOtan" : "otan/btn-otan-anti-char"
+}

@@ -1,0 +1,10 @@
+{
+    "Nom" : "Compagnie de reconnaissance blindée",
+    "Description" : "Unité mobile chargée de la reconnaissance armée à l’aide de chars légers.",
+    "Effectif" : 500,
+    "Equipements" : {
+        "Chars léger" : 24
+    },
+    "image" : "icon/btn-char-reco",
+    "imageOtan" : "otan/btn-otan-char-reco"
+}
