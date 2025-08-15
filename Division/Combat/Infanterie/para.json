@@ -1,0 +1,10 @@
+{
+    "Nom" : "Bataillon de parachutiste",
+    "Description" : "Unité militaire composée de soldats capable de se parachuter en territoire ennemi.",
+    "Effectif" : 1000,
+    "Equipements" : {
+        "Matériel d'infanterie" : 130
+    },
+    "image" : "icon/btn-para",
+    "imageOtan" : "otan/btn-otan-para"
+}

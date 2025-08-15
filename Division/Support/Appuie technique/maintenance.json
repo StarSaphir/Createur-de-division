@@ -3,7 +3,7 @@
     "Description" : "Compagnie spécialisé dans la maintenance des véhicules et équipements",
     "Effectif" : 500,
     "Equipements" : {
-        "équipement de suport" : 25
+        "équipement de support" : 25
     },
     "image" : "icon/btn-maintenance",
     "imageOtan" : "otan/btn-otan-maintenance"
